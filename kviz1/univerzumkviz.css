@@ -1,0 +1,56 @@
+/* style.css */
+body {
+  /* background-color: #202730; */
+  background-image: url("kep22.jpg");
+  background-repeat: repeat;
+  font-family: sans-serif;
+  color: #fff; /* Fehér szöveg */
+  margin: 0;
+  padding: 0;
+}
+
+form {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 40px;
+  background-color: #0f2520; /* Sötétebb szürke */
+  border-radius: 5px;
+}
+
+h1 {
+  font-size: 28px;
+  text-align: center;
+  color: white;
+}
+
+hr {
+  border: none;
+  border-top: 2px solid #007bff;
+}
+
+b {
+  font-weight: bold;
+}
+
+.valaszok {
+  margin-left: 20px;
+}
+
+input[type='radio'] {
+  margin-right: 10px;
+}
+
+input[type='button'] {
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #007bff;
+  color: #fff; /* Fehér szöveg */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type='button']:hover {
+  background-color: #0056b3; /* Sötétebb kék gomb hover állapotban */
+}
+
